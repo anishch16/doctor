@@ -9,6 +9,7 @@ abstract class Routes {
   static const FORGET_PASSWORD = _Paths.FORGET_PASSWORD;
   static const HOME = _Paths.HOME;
   static const SPLASHTWO = _Paths.SPLASHTWO;
+  static const SKIP = _Paths.SKIP;
 }
 
 abstract class _Paths {
@@ -19,4 +20,5 @@ abstract class _Paths {
   static const FORGET_PASSWORD = '/forget-password';
   static const HOME = '/home';
   static const SPLASHTWO = '/splashtwo';
+  static const SKIP = '/skipping_page';
 }

@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import '../../login/views/login_view.dart';
+import '../../skipping_page/views/skipping_view.dart';
 
 class SplashtwoController extends GetxController {
 
@@ -11,6 +11,6 @@ class SplashtwoController extends GetxController {
 
   void delayAndGo() async {
     await Future.delayed(const Duration(seconds: 2));
-    Get.off(() => const LoginView(), transition: Transition.fade);
+    Get.off(() => const SkippingView(), transition: Transition.fade);
   }
 }

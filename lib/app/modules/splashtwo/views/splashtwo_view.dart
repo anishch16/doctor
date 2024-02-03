@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
-import '../../../contants/colors.dart';
-import '../../../contants/icons.dart';
+import '../../../constants/colors.dart';
+import '../../../constants/icons.dart';
 import '../controllers/splashtwo_controller.dart';
 
 class SplashtwoView extends StatelessWidget {
